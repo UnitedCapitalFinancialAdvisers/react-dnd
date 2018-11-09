@@ -1,6 +1,7 @@
 import { isSafari, isFirefox } from './BrowserDetector'
 import MonotonicInterpolant from './MonotonicInterpolant'
-import { XYCoord } from 'dnd-core'
+// @ts-ignore
+import { XYCoord } from '@finlife/dnd-core'
 
 const ELEMENT_NODE = 1
 

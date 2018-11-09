@@ -1,7 +1,7 @@
 declare var global: any
 
 import HTML5Backend from '../HTML5Backend'
-import { DragDropManager } from 'dnd-core'
+import { DragDropManager } from '@finlife/dnd-core'
 import { HTML5BackendContext } from '../interfaces'
 
 describe('The HTML5 Backend', () => {

@@ -3,7 +3,8 @@ export * from './interfaces'
 import HTML5Backend from './HTML5Backend'
 import getEmptyImage from './getEmptyImage'
 import * as NativeTypes from './NativeTypes'
-import { DragDropManager } from 'dnd-core'
+// @ts-ignore
+import { DragDropManager } from '@finlife/dnd-core'
 
 export { NativeTypes, getEmptyImage }
 

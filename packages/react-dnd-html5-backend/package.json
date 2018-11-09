@@ -1,6 +1,6 @@
 {
 	"name": "@finlife/react-dnd-html5-backend",
-	"version": "5.0.1",
+	"version": "5.0.2",
 	"description": "HTML5 backend for React DnD",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
@@ -20,7 +20,7 @@
 		"start": "npm run watch"
 	},
 	"dependencies": {
-		"dnd-core": "^4.0.5",
+		"@finlife/dnd-core": "^4.0.5",
 		"lodash": "^4.17.11"
 	},
 	"devDependencies": {

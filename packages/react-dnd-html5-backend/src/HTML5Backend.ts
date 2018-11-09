@@ -5,8 +5,9 @@ import {
 	DragDropManager,
 	DragDropActions,
 	DragDropMonitor,
-	HandlerRegistry,
-} from 'dnd-core'
+  HandlerRegistry,
+  // @ts-ignore
+} from '@finlife/dnd-core'
 import EnterLeaveCounter from './EnterLeaveCounter'
 import { isFirefox } from './BrowserDetector'
 import {

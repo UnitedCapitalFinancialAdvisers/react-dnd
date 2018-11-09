@@ -1,5 +1,6 @@
 import * as NativeTypes from './NativeTypes'
-import { DragDropMonitor } from 'dnd-core'
+// @ts-ignore
+import { DragDropMonitor } from '@finlife/dnd-core'
 
 function getDataFromDataTransfer(
 	dataTransfer: any,

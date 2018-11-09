@@ -1,6 +1,6 @@
 {
 	"name": "@finlife/dnd-core",
-	"version": "4.0.5",
+	"version": "4.0.6",
 	"description": "Drag and drop sans the GUI",
 	"license": "BSD-3-Clause",
 	"main": "./lib/index.js",
