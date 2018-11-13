@@ -2,6 +2,7 @@
 	"extends": "./tsconfig.base.json",
 	"compilerOptions": {
 		"noEmit": true,
+ 		"declaration": false,
 		"baseUrl": ".",
 		"paths": {
 			"dnd-core": ["packages/dnd-core/src/index"],
